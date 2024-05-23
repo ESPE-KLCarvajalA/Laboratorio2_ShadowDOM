@@ -1,10 +1,10 @@
 
-class GalleryElement extends HTMLElement {
+class SeccionGaleria extends HTMLElement {
     constructor() {
         super();
         const shadow = this.attachShadow({ mode: 'open' });
         shadow.innerHTML = `
-            
+        
             <div class="gallery">
                 <img src="https://via.placeholder.com/200" alt="Gallery Image 1">
                 <img src="https://via.placeholder.com/200" alt="Gallery Image 2">
@@ -17,4 +17,4 @@ class GalleryElement extends HTMLElement {
     }
 }
 
-customElements.define('gallery-element', GalleryElement);
+customElements.define('seccion-galeria', SeccionGaleria);
